@@ -1,0 +1,68 @@
+body {
+    margin: 0px auto;
+    text-align: center;
+    
+    background: darkolivegreen;
+}
+
+h1 {
+    border: 3px solid rgb(243, 226, 127);
+    border-radius: 7px;
+    outline: 3px solid #6e4318;
+    
+    background-image: url("https://happytailsdog.net/wp-content/uploads/2018/02/AdobeStock_69424905-scaled.jpeg");
+    background-position: center;
+    background-size: contain;
+    color: rgb(243, 226, 127);
+    width: fit-content;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    font-family: 'Lily Script One', system-ui;
+    font-size: 52px;
+    
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6e4318;
+}
+
+#textInput {
+    padding: 5px;
+    border: 3px solid #6e4318;
+    border-radius: 2px;
+    background-color: rgb(243, 226, 127);
+    color: black;
+    font-weight: 1;
+    
+}
+
+#submitButton {
+    padding: 5px;
+    border: 2px solid rgb(243, 226, 127);
+    border-radius: 3px;
+    outline: #6e4318 solid 1px; 
+    color: rgb(243, 226, 127);
+    background-color: #6e4318;
+    font-weight: 500;
+    
+}
+
+li {
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.cursive {
+    font-family: 'Lily Script One', system-ui;
+    font-weight: 100;
+
+}
+
+.images {
+    zoom: -5;
+}
